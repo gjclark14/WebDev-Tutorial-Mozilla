@@ -1,0 +1,46 @@
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #ebdbb2;
+}
+
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: #fbf1c7;
+}
+
+a {
+    color: #fe8019;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 8px 8px 6px black;
+    text-align: center;
+    font-size: 60px;
+    color: #689d6a;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+body {
+    background-color: #282828;
+    width: 600px;
+    margin: auto;
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
