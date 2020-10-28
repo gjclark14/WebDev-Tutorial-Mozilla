@@ -29,8 +29,17 @@ h1 {
     padding: 20px 0;
     text-shadow: 8px 8px 6px black;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     color: #689d6a;
+}
+
+h2 {
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 8px 8px 6px black;
+    text-align: left;
+    font-size: 40px;
+    color: #8ec07c;
 }
 
 img {
@@ -50,6 +59,7 @@ body {
     padding: 0 20px 20px 20px;
     border: 3px solid #928374;
 }
+
 .collapsible {
     background-color: #777;
     color: white;
