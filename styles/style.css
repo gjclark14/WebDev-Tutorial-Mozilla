@@ -16,6 +16,14 @@ a {
     color: #fe8019;
 }
 
+button {
+    background-color: #fe8019;
+    color: #282828;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 h1 {
     margin: 0;
     padding: 20px 0;
