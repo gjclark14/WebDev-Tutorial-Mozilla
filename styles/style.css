@@ -1,6 +1,13 @@
-p {
+p, time {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 1px;
+    color: #ebdbb2;
+}
+
+dd, samp, kbd, pre, dt, code {
+    font-size: 16px;
+    line-height: 1;
     letter-spacing: 1px;
     color: #ebdbb2;
 }
@@ -35,7 +42,7 @@ h1 {
 
 h2 {
     margin: 0;
-    padding: 20px 0;
+    padding: 5px 0;
     text-shadow: 8px 8px 6px black;
     text-align: left;
     font-size: 40px;
