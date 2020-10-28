@@ -1,4 +1,4 @@
-// Look for first occurrence the element 'img' in index.html
+// Look for first occurrence the element 'img' in Assessment:_Marking_up_a_letter.html
 let myImage = document.querySelector('img');
 myImage.onclick = function () {
     let mySrc = myImage.getAttribute('src');
