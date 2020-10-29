@@ -14,7 +14,7 @@ let myHeading = document.querySelector('h1');
 
 function setUserName() {
     let myName = prompt('Please enter your name.');
-    if(!myName) {
+    if (!myName) {
         setUserName();
     } else {
         localStorage.setItem('name', myName);
@@ -23,7 +23,7 @@ function setUserName() {
 }
 
 // Initialization code
-if(!localStorage.getItem('name')) {
+if (!localStorage.getItem('name')) {
     setUserName();
 } else {
     let storedName = localStorage.getItem('name');
@@ -31,7 +31,7 @@ if(!localStorage.getItem('name')) {
 }
 
 // Onclick event handler
-myButton.onclick = function() {
+myButton.onclick = function () {
     setUserName();
 }
 
@@ -39,7 +39,7 @@ var coll = document.getElementsByClassName("collapsible");
 var i;
 
 for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
+    coll[i].addEventListener("click", function () {
         this.classList.toggle("active");
         var content = this.nextElementSibling;
         if (content.style.display === "block") {
